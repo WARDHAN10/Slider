@@ -35,7 +35,7 @@ body {
   }
 
   .container-1 div a {
-    border: 1px red solid;
+    /* border: 1px red solid; */
     margin: 5px;
     border-radius: 10px;
 
@@ -50,7 +50,7 @@ body {
     border-radius: 10px;
   }
   .unlu-div-1 {
-    border: 1px red solid;
+    /* border: 1px red solid; */
     height: 300px;
     margin: 50px 50px 10px 50px;
     border-radius: 10px;
@@ -59,7 +59,7 @@ body {
     background-clip: content-box;
   }
   .unlu-div-2 {
-    border: 1px red solid;
+    /* border: 1px red solid; */
     height: 60px;
     margin: 50px 20px 10px 20px;
     border-radius: 10px;
@@ -83,7 +83,7 @@ body {
   }
 
   .container-1 div a {
-    border: 1px red solid;
+    /* border: 1px red solid; */
     margin: 5px;
     border-radius: 10px;
   }
@@ -111,7 +111,7 @@ body {
   }
 
   .container-1 div a {
-    border: 1px red solid;
+    /* border: 1px red solid; */
     margin: 5px;
     border-radius: 10px;
   }
@@ -125,7 +125,7 @@ body {
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
   .container-1 {
     margin: 30px auto;
     display: flex;
@@ -137,11 +137,12 @@ body {
     max-width: 800px;
   }
 
-  .container-1 div a {
+  .container-1 a {
     border: 1px rgb(111, 0, 255) solid;
     margin: 5px;
     border-radius: 10px;
   }
+
   .box1 {
     min-width: 200px;
     min-height: 400px;
@@ -150,6 +151,15 @@ body {
     background-image: url("./img/1.png");
     border-radius: 10px;
     margin: 10px;
+  }
+  .nav {
+    display: block;
+    position: absolute;
+    border: 5px red solid;
+    width: 90%;
+    height: 100px;
+    margin-top: 200px;
+    margin-left: 30px;
   }
 }
 
@@ -166,8 +176,8 @@ body {
     max-width: 1000px;
   }
 
-  .container-1 div {
-    border: 1px red solid;
+  .container-1 div a {
+    /* border: 1px red solid; */
     margin: 5px;
     border-radius: 10px;
   }
@@ -192,7 +202,7 @@ body {
   }
 
   .container-1 div a {
-    border: 1px red solid;
+    /* border: 1px red solid; */
     margin: 10px;
   }
   .box1 {
