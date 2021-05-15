@@ -2,17 +2,17 @@ body {
   background-color: black !important;
   overflow: auto;
 }
-.c-text {
+.section-2-c-text {
   font-size: 32px;
   color: white;
 }
 
 @media only screen and (min-width: 0) {
-  .c-bg {
+  .section-2-c-bg {
     background-color: black;
   }
 
-  .c-head {
+  .section-2-c-head {
     font-weight: 500;
     line-height: 1.25;
     letter-spacing: 0.03em;
@@ -20,10 +20,10 @@ body {
     color: white;
   }
 
-  .c-text-center {
+  .section-2-c-text-center {
     text-align: center !important;
   }
-  .container-1 {
+  .section-2-container-1 {
     margin: 30px auto;
     display: flex;
     justify-content: space-around;
@@ -34,14 +34,14 @@ body {
     max-width: 1200px;
   }
 
-  .container-1 div a {
+  .section-2-section-2-container-1 div a {
     /* border: 1px red solid; */
     margin: 5px;
     border-radius: 10px;
 
     /* width: 500px !important; */
   }
-  .box1 {
+  .section-2-box1 {
     min-width: 180px;
     min-height: 300px;
     background-size: cover;
@@ -49,7 +49,7 @@ body {
     margin: 5px;
     border-radius: 10px;
   }
-  .unlu-div-1 {
+  .section-2-unlu-div-1 {
     /* border: 1px red solid; */
     height: 300px;
     margin: 50px 50px 10px 50px;
@@ -58,8 +58,8 @@ body {
     background-image: url("./img/unlu-1.jpg");
     background-clip: content-box;
   }
-  .unlu-div-2 {
-    /* border: 1px red solid; */
+  .section-2-unlu-div-2 {
+    border: 1px white solid;
     height: 60px;
     margin: 50px 20px 10px 20px;
     border-radius: 10px;
@@ -71,7 +71,7 @@ body {
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .container-1 {
+  .section-2-container-1 {
     margin: 30px auto;
     display: flex;
     justify-content: space-around;
@@ -82,12 +82,12 @@ body {
     max-width: 600px;
   }
 
-  .container-1 div a {
+  .section-2-container-1 div a {
     /* border: 1px red solid; */
     margin: 5px;
     border-radius: 10px;
   }
-  .box1 {
+  .section-2-box1 {
     min-width: 280px;
     min-height: 500px;
     flex-shrink: 0;
@@ -99,7 +99,7 @@ body {
 /* Medium devices (landscape tablets, 768px and up) */
 
 @media only screen and (min-width: 768px) {
-  .container-1 {
+  .section-2-container-1 {
     margin: 30px auto;
     display: flex;
     justify-content: space-around;
@@ -110,12 +110,12 @@ body {
     max-width: 660px;
   }
 
-  .container-1 div a {
+  .section-2-container-1 div a {
     /* border: 1px red solid; */
     margin: 5px;
     border-radius: 10px;
   }
-  .box1 {
+  .section-2-box1 {
     min-width: 220px;
     min-height: 400px;
     flex-shrink: 0;
@@ -126,7 +126,7 @@ body {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .container-1 {
+  .section-2-container-1 {
     margin: 30px auto;
     display: flex;
     justify-content: space-around;
@@ -137,13 +137,13 @@ body {
     max-width: 800px;
   }
 
-  .container-1 a {
+  .section-2-container-1 a {
     border: 1px rgb(111, 0, 255) solid;
     margin: 5px;
     border-radius: 10px;
   }
 
-  .box1 {
+  .section-2-box1 {
     min-width: 200px;
     min-height: 400px;
     flex-shrink: 0;
@@ -152,7 +152,7 @@ body {
     border-radius: 10px;
     margin: 10px;
   }
-  .nav {
+  .section-2-nav {
     display: block;
     position: absolute;
     border: 5px red solid;
@@ -165,7 +165,7 @@ body {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .container-1 {
+  .section-2-container-1 {
     margin: 30px auto;
     display: flex;
     justify-content: space-around;
@@ -176,12 +176,12 @@ body {
     max-width: 1000px;
   }
 
-  .container-1 div a {
+  .section-2-container-1 div a {
     /* border: 1px red solid; */
     margin: 5px;
     border-radius: 10px;
   }
-  .box1 {
+  .section-2-box1 {
     min-width: 250px;
     min-height: 450px;
     flex-shrink: 0;
@@ -190,7 +190,7 @@ body {
   }
 }
 @media only screen and (min-width: 1500px) {
-  .container-1 {
+  .section-2-container-1 {
     margin: 30px auto;
     display: flex;
     justify-content: space-around;
@@ -201,11 +201,11 @@ body {
     max-width: 1200px;
   }
 
-  .container-1 div a {
+  .section-2-container-1 div a {
     /* border: 1px red solid; */
     margin: 10px;
   }
-  .box1 {
+  .section-2-box1 {
     min-width: 300px;
     min-height: 500px;
     flex-shrink: 0;
